@@ -1,0 +1,11 @@
+wait: 50
+
+scrapers:
+  yhfinance:
+    url: https://finance.yahoo.com
+    xpaths:    
+      cookie_button: //*[@id='consent-page']/div/div/div/form/div[2]/div[2]/button[1]
+      menu:
+        sectors_button: //*[@id="Nav-0-DesktopNav-0-DesktopNav"]/div/div[3]/div/nav/ul/li[9]/a
+      sectors_table: //*[@id="nimbus-app"]/section/section/section/article/section[1]/section[2]/div/div/div[1]/div/div[2]/table/tbody
+      go_to_sector: //*[@id="nimbus-app"]/section/section/section/article/section[1]/section[2]/div/div/div[2]/span/a
