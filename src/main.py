@@ -1,6 +1,4 @@
 
-from time import sleep
-from pprint import pprint
 from modules.scrape.scrapers import Scraper, YHFinanceScraper
 import yaml
 
